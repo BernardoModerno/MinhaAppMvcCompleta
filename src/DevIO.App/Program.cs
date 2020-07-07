@@ -22,3 +22,19 @@ namespace DevIO.App
                 .UseStartup<Startup>();
     }
 }
+
+/*Comando Utilizados até agora
+ * 
+Update-Database -Verbose
+Add-Migration TabelasSistema
+ApplicationDbContext(AppMvcBasica.Data)
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.Relational
+Add-Migration Initial -Verbose -Context MeuDbContext
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 2.2.0
+Script-Migration -Context MeuDbContext
+Update-Database -Context ApplicationDbContext
+Update-Database -Context MeuDbContext
+Install-Package automapper.extensions.microsoft.dependencyinjection
+ 
+ */
