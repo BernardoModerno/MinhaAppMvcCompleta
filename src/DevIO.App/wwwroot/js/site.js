@@ -40,7 +40,8 @@
     });
 }
 
-function BuscaCep() {
+/*Função criada para busca de CEP com Jquery*/
+function BuscaCep() {                 
     $(document).ready(function () {
 
         function limpa_formulário_cep() {
