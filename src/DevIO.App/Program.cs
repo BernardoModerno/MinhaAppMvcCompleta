@@ -36,5 +36,6 @@ Script-Migration -Context MeuDbContext
 Update-Database -Context ApplicationDbContext
 Update-Database -Context MeuDbContext
 Install-Package automapper.extensions.microsoft.dependencyinjection
+Install-Package FluentValidation
  
  */
